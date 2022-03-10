@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@400;700&display=swap');
+
+body{
+    background:#808080;
+    color: white; 
+    font-family: Roboto;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-item{
+    padding: 0 1.5rem;
+    }
+.bd{
+    padding:0.5ch;
+    padding-left: 5ch;
+}
+
+.box{
+    padding:0.5ch;
+    padding-left: 20ch;
+    display:inline-flex;
+    
+}
