@@ -5,71 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./sytle.css">
 </head>
 <body>
-<header>
-    <img src="pictures/product-landing-page-logo.png" alt="company logo">
-    <ul>
-        <li>Features</li>
-        <li>How it works</li>
-        <li>Pricing</li>
-    </ul>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark mt-5">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold" href="#"><img src="product-landing-page-logo.png" alt="company logo" width="350px" height="70px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">HOw it works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Princing</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
 
-</header>
-
-<div>Handcrafted, home-made masterpieces</div>
-<form>
-    <input type="email">Enter your email</input>
+<div class="bd">Handcrafted, home-made masterpieces</div>
+<form class="bd">
+    <input type="email" value="Enter Your email"></input>
 </form>
 
-<div>Get started</div>
+<div class="bd">Get started</div>
 
 <ul>
     <li>
-        <div>Premium Materials</div>
-        <div>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</div>
+        <div class="bd">Premium Materials</div>
+        <div class="bd">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</div>
 
         </li>
     <li>
-        <div>Fast Shipping</div>
-        <div>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</div>
+        <div class="bd">Fast Shipping</div>
+        <div class="bd">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</div>
     </li>
     <li>
-        <div>Quality Assurance</div>
-        <div>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</div>
+        <div class="bd">Quality Assurance</div>
+        <div class="bd">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</div>
     </li>
 </ul>
+<div class="bd">
+<a style="color: black;" href="https://youtu.be/y8Yv4pnO7qc">Roman Carnival Overture Op.9 Five Trombone</a>
+</div>
+<br><br><br>
 
-<a href="https://youtu.be/y8Yv4pnO7qc">Roman Carnival Overture Op.9 Five Trombone</a>
-
-<div>
-    <div>TENOR TROMBONE</div>
-    <div>$600
-        Lorem ipsum.
-        Lorem ipsum.
-        Lorem ipsum dolor.
-        Lorem ipsum.</div>
-      <button>Select</button>
+<div class="box">
+<p> TENOR TROMBONE<br>
+        $600<br>
+        Lorem ipsum.<br>
+        Lorem ipsum.<br>
+        Lorem ipsum dolor.<br>
+        Lorem ipsum.<br></p></div>
+      <button style="color: white; background-color: green;">Select<br></button>
 </div>
 
-<div>
-    <div>BASS TROMBONE</div>
-    <div>$900
-        Lorem ipsum.
-        Lorem ipsum.
-        Lorem ipsum dolor.
-        Lorem ipsum..</div>
-      <button>Select</button>
+<div class="box">
+   <p> BASS TROMBONE<br>
+    $900<br>
+        Lorem ipsum.<br>
+        Lorem ipsum.<br>
+        Lorem ipsum dolor.<br>
+        Lorem ipsum.<br></p></div>
+        <button style="color: white; background-color: green;">Select<br></button>
 </div>
 
-<div>
-    <div>VALVE TROMBONE</div>
-    <div>$1200
-        Plays similar to a Trumpet
-        Great for Jazz Bands
-        Lorem ipsum dolor.
-        Lorem ipsum.</div>
-      <button>Select</button>
+<div class="box">
+<p>VALVE TROMBONE<br>
+    $1200<br>
+    Plays similar to a Trumpet<br>
+    Great for Jazz Bands<br>
+    Lorem ipsum dolor.<br>
+    Lorem ipsum.<br></p></div>
+    <button style="color: white; background-color: green;">Select<br></button>
 </div>
 
 
@@ -80,9 +98,9 @@
     <ul>
         <li>Privacy</li>
         <li>Terms</li>
-        <li>Contact</li>C
+        <li>Contact</li>
     </ul>
 
-    <div>Copyright 2016, Original Trombones</div>
+    <div class="bd">Copyright 2016, Original Trombones</div>
 </footer>
 </html>
